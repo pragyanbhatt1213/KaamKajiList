@@ -1,9 +1,7 @@
 # Kaam Kaji List
 > A powerful task management application for organizing and tracking your daily tasks and productivity.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+
 
 Kaam Kaji List is a modern, intuitive task management application designed to help you stay organized and productive. Built with React Native, it provides a sleek dark-themed interface that allows users to effortlessly add, track, and manage their tasks across different stages of completion.
 
