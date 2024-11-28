@@ -1,79 +1,73 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Kaam Kaji List
+> A powerful task management application for organizing and tracking your daily tasks and productivity.
 
-# Getting Started
+[![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Downloads Stats][npm-downloads]][npm-url]
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Kaam Kaji List is a modern, intuitive task management application designed to help you stay organized and productive. Built with React Native, it provides a sleek dark-themed interface that allows users to effortlessly add, track, and manage their tasks across different stages of completion.
 
-## Step 1: Start the Metro Server
+The app enables users to create tasks, mark them as complete, and delete them as needed. With a clean, minimalist design and powerful functionality, Kaam Kaji List transforms task management into a smooth, enjoyable experience.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+![](header.png)
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Installation
+OS X & Linux:
+```sh
+npm install kaam-kaji-list --save
+```
+Windows:
+```sh
+npm install kaam-kaji-list --save
+```
 
-```bash
-# using npm
+## Usage Example
+Create and manage your tasks with ease:
+
+```javascript
+// Add a new task
+addTask('Complete project report', '2024-02-15')
+
+// Toggle task completion
+toggleTaskCompletion(taskId)
+
+// Delete a task
+deleteTask(taskId)
+```
+
+*For more examples and usage, please refer to the [Wiki][wiki].*
+
+## Features
+- Dark theme user interface
+- Add tasks with optional deadlines
+- Mark tasks as complete
+- Delete tasks
+- Separate lists for active and completed tasks
+- Responsive design
+  
+<p align="center">
+  <img src = "https://github.com/user-attachments/assets/35a8ce97-56e1-45f1-95e0-d48429bd9f7c" width=300>
+</p>
+<p align="center">
+  <img src = "https://github.com/user-attachments/assets/45dfd217-cc54-4981-958d-00258e225f72" width=300>
+</p>
+
+## Development Setup
+Describe how to install all development dependencies and how to run an automated test-suite of some kind:
+
+```sh
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Start development server
 npm start
-
-# OR using Yarn
-yarn start
 ```
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Release History
+* 0.1.0
+    * Initial release of Kaam Kaji List
+    * Basic task management functionality
+    * Dark theme implementation
